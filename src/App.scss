@@ -1,0 +1,10 @@
+$bgColor: #1a1a1d;
+$fontColor: #6f2232;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: $bgColor;
+  color: $fontColor;
+}

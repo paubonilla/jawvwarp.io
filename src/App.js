@@ -1,17 +1,32 @@
 import React from 'react';
-import './App.css';
+import { AppContainer, AppInner } from './styled'
+import './App.scss';
+import styled from 'styled-components'
+
+export const Nav = styled.div`
+  width: 200px;
+  ul {
+    > li {
+      background-color: red;
+      padding: 10px;
+    }
+  }
+`
+
 
 function App() {
   return (
-    <div>
-      <div className="wrapper">
-        <div className="nav">
-          <div className="left-colum"></div>
-          <div className="main-section"></div>
-          <div className="right-column"></div>
-        </div>
-      </div>
-    </div>
+    <AppContainer>
+      <AppInner>
+        <Nav>
+          <ul>
+            <li>Home</li>
+            <li>Memories</li>
+            <li>About</li>
+          </ul>
+        </Nav>
+      </AppInner>
+    </AppContainer>
   );
 }
 
