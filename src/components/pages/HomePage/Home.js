@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeSection from '../../HomeSection'
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './data'
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from '../HomePage/data'
 
 export default function Home() {
   return (
