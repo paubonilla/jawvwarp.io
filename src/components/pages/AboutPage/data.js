@@ -1,17 +1,18 @@
-export const homeObjOne = {
+export const aboutObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Uy! Kumusta Mundo',
-  headline: 'Kami nga pala ang JAWVWARP',
-  description: "Boss balita mga ma'am sir???",
-  buttonLabel: 'Click mo to dali',
-  img: 'images/game-day.svg',
-  alt: 'With the boys!!!',
-  imgStart: ''
+  topLine: 'Exclusive Access',
+  headline: 'Unlimited Transactions with zero fees',
+  description:
+    'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
+  buttonLabel: 'Get Started',
+  imgStart: '',
+  img: 'images/instant-support.svg',
+  alt: 'Guy Diving???'
 };
 
-export const homeObjTwo = {
+export const aboutObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -21,11 +22,11 @@ export const homeObjTwo = {
     'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
   buttonLabel: 'Learn More',
   imgStart: '',
-  img: 'images/game-day.svg',
+  img: 'images/svg-5.svg',
   alt: 'Vault'
 };
 
-export const homeObjThree = {
+export const aboutObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -39,7 +40,7 @@ export const homeObjThree = {
   alt: 'Vault'
 };
 
-export const homeObjFour = {
+export const aboutObjFour = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -49,6 +50,6 @@ export const homeObjFour = {
     'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
   buttonLabel: 'Sign Up Now',
   imgStart: 'start',
-  img: 'images/game-day.svg',
+  img: 'images/svg-8.svg',
   alt: 'Vault'
 };

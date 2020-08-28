@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { MdFingerprint } from 'react-icons/md'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
-import { Button } from './Button'
+import { Button } from '../Button/Button'
 import './Nav.scss'
 
 export default function Nav() {
@@ -38,8 +38,8 @@ export default function Nav() {
               onClick={closeMobileMenu}
             >
               <MdFingerprint className="navbar-icon" />
-            JAWVWARP
-          </Link>
+              <span>JAWVWARP</span>
+            </Link>
             <div className="menu-icon" onClick={handleClick} >
               {click ? <FaTimes /> : <FaBars />}
             </div>
@@ -64,11 +64,11 @@ export default function Nav() {
               </li>
               <li className="nav-item">
                 <Link
-                  to='/contacts'
+                  to='/people'
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  Contacts
+                  People
               </Link>
               </li>
               <li className="nav-btn">

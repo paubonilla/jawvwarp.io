@@ -1,9 +1,9 @@
 import React from 'react'
-import { Button } from './layout/Button/Button'
+import { Button } from '../../layout/Button/Button'
 import { Link } from 'react-router-dom'
-import './HomeSection.scss'
+import '../../HomeSection.scss'
 
-export default function HomeSection({
+export default function AboutSection({
   lightBg,
   topLine,
   lightText,
@@ -27,7 +27,7 @@ export default function HomeSection({
                 <div className="top-line">{topLine}</div>
                 <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
                 <p className={lightTextDesc ? 'home__subtitle' : 'home__subtitle dark'}>{description}</p>
-                <Link to='/gulat'>
+                <Link to='/ano'>
                   <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLabel}</Button>
                 </Link>
               </div>
