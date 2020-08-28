@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button } from './layout/Button/Button'
+import { Button } from '../../layout/Button/Button'
 import { Link } from 'react-router-dom'
-import './HomeSection.scss'
+import '../../HomeSection.scss'
 
 export default function AboutSection({
   lightBg,
