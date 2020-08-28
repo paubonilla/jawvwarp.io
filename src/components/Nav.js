@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { MdFingerprint } from 'react-icons/md'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
-import { Button } from '../Button'
+import { Button } from './Button'
 import './Nav.scss'
 
 export default function Nav() {

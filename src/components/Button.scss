@@ -6,6 +6,7 @@
   padding: 8px 20px;
   border-radius: 4px;
   outline: none;
+  border: none;
   cursor: pointer;
   white-space: nowrap;
 }
@@ -24,24 +25,25 @@
   transition: all 0.3s ease-out;
 }
 
-.btn-medium {
+.btn--medium {
   padding: 8px 20px;
   font-size: 18px;
 }
 
-.btn-large {
+.btn--large {
   padding: 12px 26px;
   font-size: 20px;
 }
 
-.btn-mobile {
+.btn--mobile {
   text-align: center;
   border-radius: 4px;
   width: 80%;
   text-decoration: none;
-  font-size: 24px;
-  padding: 14px 20px;
+  font-size: 1.5rem;
   background-color: transparent;
+  color: #fff;
+  padding: 14px 20px;
   border: 1px solid #fff;
   transition: all 0.3s ease-out;
 }
@@ -49,20 +51,29 @@
 .btn--wide {
   padding: 12px 64px;
   font-size: 20px;
+  &:hover {
+    color: #fff;
+    background-color: #f00946;
+    transition: all 0.2s ease-out;
+  }
 }
 
-.btn-large:hover,
-.btn-medium:hover,
-.btn-mobile:hover {
+.btn--large:hover,
+.btn--medium:hover,
+.btn--mobile:hover {
   transition: all 0.3s ease-out;
-  background-color: #fff;
+  background: #fff;
   color: #242424;
 }
 
-.btn--wide:hover {
-  color: #fff;
-  background-color: #f00946;
-  transition: all 0.2s ease-out;
+.btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
 }
 
 .blue {
@@ -77,15 +88,6 @@
   border: none;
 }
 
-.green {
-  background-color: #25ce4a;
-  color: #fff;
-  border: none;
-  &:hover {
-    background-color: #242424;
-  }
-}
-
 .primary {
   background-color: #242424;
   color: #fff;
@@ -97,12 +99,11 @@
   }
 }
 
-.btn-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  padding: 8px 16px;
-  width: 100%;
-  height: 100%;
+.green {
+  background: #25ce4a;
+  color: #fff;
+  border: none;
+  &:hover {
+    background-color: #242424;
+  }
 }
