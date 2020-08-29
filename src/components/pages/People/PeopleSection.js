@@ -1,5 +1,15 @@
 import React from 'react'
 import '../../HomeSection.scss'
+import sila from '../../../images/sila.jpg'
+import silaUlit from '../../../images/sila-ulit.jpg'
+import styled from 'styled-components'
+
+export const PeopleSectionContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`
 
 export default function PeopleSection({
   lightBg,
@@ -34,6 +44,10 @@ export default function PeopleSection({
           </div>
         </div>
       </div>
+      <PeopleSectionContainer>
+        <img src={sila} alt="di kasama yung iba" />
+        <img src={silaUlit} alt="di kasama yung iba" />
+      </PeopleSectionContainer>
     </>
   )
 }

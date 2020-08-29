@@ -2,25 +2,26 @@ export const aboutObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Exclusive Access',
-  headline: 'Unlimited Transactions with zero fees',
+  topLine: '',
+  headline: 'Ano ba inig sabihin ng JAWVWARP?',
   description:
-    'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
+    '',
+  mgaBrad: "Judel, Arnel, Wyne, Van, Walter, Anntony, Rydar, Nester, at si Miguel",
   buttonLabel: 'Get Started',
   imgStart: '',
   img: 'images/instant-support.svg',
   alt: 'Guy Diving???'
 };
 
-export const aboutObjThree = {
+export const aboutObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'EASY SETUP',
-  headline: 'Super fast and simple onboarding process',
+  topLine: '',
+  headline: '',
   description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: 'Start Now',
+    "",
+  buttonLabel: '',
   imgStart: 'start',
   img: 'images/helpful-sign.svg',
   alt: 'Vault'

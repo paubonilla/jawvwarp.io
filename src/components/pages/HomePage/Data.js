@@ -3,39 +3,38 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Uy! Kumusta Mundo',
-  headline: 'Kami nga pala ang JAWVWARP',
-  description: "Boss balita mga ma'am sir???",
+  headline: 'PANIMULA',
+  description: "Hayaan mo ikuwento ko sayo ang isa sa mga pinakamagandang nangyari sa buhay ko...",
+  mgaBrad: "Judel, Arnel, Wyne, Van, Walter, Anntony, Rydar, Nester, at si Miguel",
   buttonLabel: 'Click mo to dali',
   img: 'images/game-day.svg',
   alt: 'With the boys!!!',
-  imgStart: ''
 };
 
 export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: '100% SECURE',
-  headline: 'Stay protected 24/7 anywhere anytime',
+  headline: 'Paano ko ba sila nakilala?',
   description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-  buttonLabel: 'Learn More',
-  imgStart: '',
-  img: 'images/game-day.svg',
-  alt: 'Vault'
+    "Nag simula ang lahat...",
+  buttonLabel: 'Start Now',
+  imgStart: 'start',
+  img: 'images/conversation.svg',
+  alt: 'Nag uusap'
 };
 
 export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'EASY SETUP',
-  headline: 'Super fast and simple onboarding process',
+  topLine: 'top line',
+  headline: 'headline',
   description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: 'Start Now',
-  imgStart: 'start',
-  img: 'images/helpful-sign.svg',
+    'description',
+  buttonLabel: 'button',
+  imgStart: '',
+  img: 'images/talking.svg',
   alt: 'Vault'
 };
 
@@ -43,12 +42,12 @@ export const homeObjFour = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'DATA ANALYTICS',
-  headline: 'Every transaction is stored on our secure cloud database',
+  topLine: '',
+  headline: '',
   description:
-    'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-  buttonLabel: 'Sign Up Now',
+    "",
+  buttonLabel: '',
   imgStart: 'start',
   img: 'images/game-day.svg',
-  alt: 'Vault'
+  alt: ''
 };

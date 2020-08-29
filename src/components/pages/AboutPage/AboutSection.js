@@ -10,6 +10,7 @@ export default function AboutSection({
   lightTextDesc,
   headline,
   description,
+  mgaBrad,
   buttonLabel,
   img,
   alt,
@@ -26,7 +27,7 @@ export default function AboutSection({
               <div className="home__text-wrapper">
                 <div className="top-line">{topLine}</div>
                 <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
-                <p className={lightTextDesc ? 'home__subtitle' : 'home__subtitle dark'}>{description}</p>
+                <p className={lightTextDesc ? 'home__subtitle' : 'home__subtitle dark'}>{description} {mgaBrad}</p>
                 <Link to='/ano'>
                   <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLabel}</Button>
                 </Link>

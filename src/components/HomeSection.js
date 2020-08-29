@@ -13,7 +13,7 @@ export default function HomeSection({
   buttonLabel,
   img,
   alt,
-  imgStart
+  imgStart,
 }) {
   return (
     <>
@@ -28,7 +28,7 @@ export default function HomeSection({
                 <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
                 <p className={lightTextDesc ? 'home__subtitle' : 'home__subtitle dark'}>{description}</p>
                 <Link to='/gulat'>
-                  <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLabel}</Button>
+                  <Button buttonSize='btn--wide' buttonColor='black'>{buttonLabel}</Button>
                 </Link>
               </div>
             </div>

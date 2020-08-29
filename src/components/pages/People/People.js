@@ -1,6 +1,6 @@
 import React from 'react';
 import PeopleSection from './PeopleSection';
-import { peopleObjOne } from './data';
+import { peopleObjOne } from './Data';
 
 function People() {
   return (
