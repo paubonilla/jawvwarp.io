@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutSection from './AboutSection';
-import { aboutObjOne } from './Data';
+import { aboutObjOne } from './data';
 // import Pricing from '../../Pricing'
 
 function About() {
