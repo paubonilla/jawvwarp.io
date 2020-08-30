@@ -18,7 +18,7 @@ export const aboutObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: '',
-  headline: '',
+  headline: 'THE BOYS',
   description:
     "",
   buttonLabel: '',
