@@ -6,7 +6,7 @@ import './App.scss';
 import Home from './components/Home';
 import About from './components/pages/AboutPage/About';
 import People from './components/pages/People/People';
-import Gulat from './components/pages/Gulat';
+import Gulat from './components/pages/Origins';
 import Footer from './components/pages/Footer/Footer';
 
 function App() {

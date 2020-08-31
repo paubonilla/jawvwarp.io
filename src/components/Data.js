@@ -6,7 +6,7 @@ export const homeObjOne = {
   headline: 'PANIMULA',
   description: "Hayaan mo ikuwento ko sayo ang isa sa mga pinakamagandang nangyari sa buhay ko...",
   mgaBrad: "Judel, Arnel, Wyne, Van, Walter, Anntony, Rydar, Nester, at si Miguel",
-  buttonLabel: 'Click mo to dali',
+  buttonLabel: 'Pindutin mo to',
   img: 'images/game-day.svg',
   alt: 'With the boys!!!',
 };
@@ -18,7 +18,7 @@ export const homeObjTwo = {
   headline: 'Paano ko ba sila nakilala?',
   description:
     "Nag simula ang lahat...",
-  buttonLabel: 'Start Now',
+  buttonLabel: 'Paano nga ba?',
   imgStart: 'start',
   img: 'images/conversation.svg',
   alt: 'Nag uusap'

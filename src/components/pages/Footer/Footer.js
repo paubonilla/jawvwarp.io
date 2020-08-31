@@ -2,24 +2,23 @@ import React from 'react';
 import '../Footer/Footer.scss';
 import { Button } from '../../layout/Button/Button';
 import { Link } from 'react-router-dom';
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin
-} from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
+// import {
+//   FaFacebook,
+//   FaInstagram,
+//   FaYoutube,
+//   FaTwitter,
+//   FaLinkedin
+// } from 'react-icons/fa';
 
 export default function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join our exclusive membership to receive the latest news and trends
+          Ayos ba? Kung gusto mo sumali sa grupo namin, kausapin mo na lang mga tropa ko kung gusto din nila
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          Ikaw na bahala makipag usap
         </p>
         <div className='input-areas'>
           <form>
@@ -27,7 +26,7 @@ export default function Footer() {
               className='footer-input'
               name='email'
               type='email'
-              placeholder='Your Email'
+              placeholder='Email mo soy?'
             />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
@@ -72,12 +71,11 @@ export default function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
               JAWVWARP
             </Link>
           </div>
           <small className='website-rights'>JAWVWARP © 2020</small>
-          <div className='social-icons'>
+          {/* <div className='social-icons'>
             <Link
               className='social-icon-link'
               to='/'
@@ -120,7 +118,7 @@ export default function Footer() {
             >
               <FaLinkedin />
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
