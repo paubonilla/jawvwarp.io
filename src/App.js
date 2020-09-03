@@ -6,8 +6,9 @@ import './App.scss';
 import Home from './components/Home';
 import About from './components/pages/AboutPage/About';
 import People from './components/pages/People/People';
-import Gulat from './components/pages/Origins';
+import Origins from './components/pages/Origins';
 import Footer from './components/pages/Footer/Footer';
+import Griffin from './components/pages/Griffin';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/people" component={People} />
-        <Route path="/gulat" component={Gulat} />
+        <Route path="/origins" component={Origins} />
+        <Route path="/griffin" component={Griffin} />
       </Switch>
       <Footer />
     </Router>

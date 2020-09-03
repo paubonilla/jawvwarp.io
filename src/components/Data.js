@@ -19,6 +19,7 @@ export const homeObjTwo = {
   description:
     "Nag simula ang lahat...",
   buttonLabel: 'Paano nga ba?',
+  to: '/origins',
   imgStart: 'start',
   img: 'images/conversation.svg',
   alt: 'Nag uusap'
@@ -28,11 +29,11 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'top line',
-  headline: 'headline',
+  headline: 'Mga kuwnetong dito mo lang malalaman',
   description:
-    'description',
-  buttonLabel: 'button',
+    '1st year high school namin sinubukan namin humuli ng Griffon sa gubat. ',
+  buttonLabel: 'Basa na',
+  to: '/griffin',
   imgStart: '',
   img: 'images/talking.svg',
   alt: 'Vault'
