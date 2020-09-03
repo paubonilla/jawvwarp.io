@@ -12,6 +12,6 @@ $fontFamilyW: "Work Sans", sans-serif;
   padding: 0;
   box-sizing: border-box;
   &::selection {
-    background-color: #ffa31a;
+    background-color: $orange;
   }
 }
